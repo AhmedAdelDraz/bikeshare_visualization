@@ -16,17 +16,11 @@ Dataset doesn't contain sufficient features to produce persuasive visualization.
 extracted from the primary features for example: `duration_min` `distance_meter` `day` `hour` `age`.
 
 ## Exploration
-Walking through data features I visualized how some features distributions look like to help to linking these 
-features together to discover some relactions between them. Also these visualization help us to answer some questions
-about the dataset:
-* What is the mean age of user? 
-* How far do they go?
-* How long does the average trip take?
-* Which stations are most popular?
-* When are most trips taken in terms of time of day?
-* What days of the week are most rides taken on?
+Walking through data features I start with univariate visualiztoin to show distribution of features, Then we can detect the outliers.<br>
+Secondy, I moved to bivariate visualiztoin to illustrate some relation between the features themself in order to decide which features relate to 
+each other.Finally, Multivariate visulization of features to help us to answer some questions.
 
-## Summary
+## Findings
 * most of users' ages at their thirties.
 * most of users cycle around 1 km for both costumer and subscriber.
 * most of costumers' trips take around 15 mins, subscribers' trips take around 10 mins.
@@ -34,3 +28,16 @@ about the dataset:
 * trips in day have the same pattern for both costumers and subscribers.
 * numbers of costumers trips over a week is steady unlike subscribers trips which decreased significantlly during weekends.
 * usually costumers trips take more time than subscriber.
+
+## Explantion
+* user Charactersitics
+* What is the mean age of user? 
+* How far do they go?
+* How long does the average trip take?
+* Which stations are most popular?
+* When are most trips taken in terms of time of day?
+* What days of the week are most rides taken on?
+
+## Conclusion
+>**In conclusion, based on visualization statistics; bike sharing usage among subscribers focuses on going to nearby work and return to home later. costumers usage is less directed to going to work but it is not siginficant to numbers of subscribers.**
+
